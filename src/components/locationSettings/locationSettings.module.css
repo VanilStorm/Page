@@ -1,0 +1,254 @@
+
+.locationSettings {
+    padding: 24px 40px;
+}
+
+.breadcrumb {
+    display: flex;
+
+    font-size: 14px;
+    font-weight: 600;
+    color: #00A0EC;
+}
+
+.breadcrumb :nth-child(n) {
+    cursor: pointer;
+    margin-left: 6px;
+}
+
+.breadcrumbSettings {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbSettingsIcon {
+    height: 15px;
+    width: 14px;
+
+    background-image: url(../../icons/settingsIcon.svg);
+}
+
+.breadcrumbSettings span::after {
+    content: url(../../icons/Down.svg);
+
+    position: relative;
+    top: 3px;
+    left: 6px;
+}
+
+.breadcrumbVacation span::before {
+    content: '';
+
+    position: relative;
+
+    top: 3px;
+    left: -3px;
+}
+
+.breadcrumbVacation span::after {
+    content: url(../../icons/Down.svg);
+
+    position: relative;
+    top: 3px;
+    left: 6px;
+}
+
+/* countrySettings */
+
+.countrySettings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 8px;
+    margin-left: 10px;
+    width: 70vw;
+}
+
+.country span {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.countrySettingsButtons button {
+    padding: 12px 25px;
+
+    font-size: 13px;
+    font-weight: 600;
+
+    outline: none;
+    border: none;
+    background-color: white;
+}
+
+.countrySettingsButtons :first-child {
+    border: 1px solid #F24445;
+    border-radius: 5px;
+    color: #F24445;
+    cursor: pointer;
+}
+
+.countrySettingsButtons :first-child:hover {
+    border: 1px solid #b25252;
+    color: #b25252;
+    transition: .4s;
+}
+
+.countrySettingsButtons :last-child {
+    margin-left: 8px;
+    border: 1px solid #00A0EC;
+    border-radius: 5px;
+    background-color: #00A0EC;
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.countrySettingsButtons :last-child:hover {
+    border: 1px solid #431bd5;
+    border-radius: 5px;
+    background-color: #431bd5;
+    color: rgb(255, 255, 255);
+}
+
+/* navigationBar */
+
+.navigationBar {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 32px;
+}
+
+.navigationBar :nth-child(n) {
+    margin-right: 48px;
+    color: #2e5bff61;
+    cursor: pointer;
+}
+
+.underLine {
+    width: 70vw;
+    margin-top: 12px;
+    margin-left: 10px;
+    border-bottom: 1px solid #2e5bff61;
+}
+
+.navigationBar :first-child {
+    position: relative;
+    color: #2e5bff;
+}
+
+.navigationBar :first-child::after {
+    position: absolute;
+    left: -22px;
+    bottom: -15px;
+    content: "";
+    width: 108px;
+    border-bottom: 3px solid #2141b7;
+}
+
+
+/* infoBlock */
+
+.infoBlock {
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 10px;
+}
+
+.infoBlockKeys {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 13px;
+    font-weight: 600;
+
+    color: #AFB6C6;
+}
+
+.infoBlockKeys :nth-child(n) {
+    margin-top: 24px;
+}
+
+.infoBlockValues {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 30px;
+
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.infoBlockValues :nth-child(n) {
+    margin-top: 25px;
+}
+
+.workDays :nth-child(n) {
+    margin-right: 12px;
+}
+
+.workDays :nth-child(n)::after {
+    content: '|';
+    width: 1px;
+    margin-left: 12px;
+    color : #AFB6C6;
+}
+
+.workDays :last-child::after {
+    content: '';
+}
+
+.usersBlock {
+    display: flex;
+    align-items: center;
+
+    margin-left: 10px;
+    margin-top: 24px;
+}
+
+.usersBlock span:first-child {
+    font-size: 13px;
+    font-weight: 600;
+
+    color: #AFB6C6;
+}
+
+.usersBlock span:last-child {
+    font-size: 12px;
+    font-weight: 400;
+
+    border-bottom: 1px solid #01a8f5;
+
+    color: #00A0EC;
+}
+
+.usersAvatars {
+    display: flex;
+    margin-left: 22%;
+    width: 234px;
+}
+
+.usersAvatars :nth-child(n) {
+    margin-right: 5px;
+}
+
+.ava {
+    width: 30px;
+    height: 30px;
+
+    background-image: url(../../icons/Ava.svg);
+}
+
+.iconInfo::after {
+    position: relative;
+    width: 18px;
+    height: 17px;
+
+    bottom: -3px;
+    left: 5px;
+    content: url(../../icons/infoIcon.svg);
+
+    cursor: pointer;
+}

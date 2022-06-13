@@ -1,0 +1,95 @@
+
+.openedMenu {
+    position: relative;
+    width: 200px;
+    height: 95vh;
+
+    border-left: 1px solid #2E5BFF1A;
+    border-right: 1px solid #2E5BFF1A;
+
+    padding: 24px 30px;
+    background-color: #f5f9fe;
+}
+
+.settings {
+    font-weight: 600;
+    font-size: 16px;
+
+    color: #AFB6C6;
+
+    margin-bottom: 16px;
+}
+
+.general {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.general span {
+    font-size: 14px;
+    font-weight: 500;
+
+    margin-left: 12px;
+
+    cursor: pointer;
+}
+
+.generalSVG {
+    width: 20px;
+    height: 20px;
+
+    background-image: url(../../icons/icon-settings-general.svg);
+
+    cursor: pointer;
+}
+
+.vacationManager {
+    display: flex;
+}
+
+.vacationManager span {
+    font-size: 14px;
+    font-weight: 500;
+
+    color: #00A0EC;
+
+    margin-left: 12px;
+
+    cursor: pointer;
+}
+
+.vacationManagerSVG {
+    width: 20px;
+    height: 20px;
+
+    background-image: url(../../icons/icon-settings-vacation\ manager.svg);
+
+    cursor: pointer;
+}
+
+.subVacationManager div{
+    margin-left: 32px;
+    margin-top: 16px;
+
+    font-size: 13px;
+    font-weight: 300;
+
+    cursor: pointer;
+}
+
+.active span {
+    color: #00A0EC;
+}
+
+.switcher {
+    position: absolute;
+    top: 58px;
+    right: -15px;
+
+    width: 55px;
+    height: 50px;
+
+    background-image: url(../../icons/switcher.svg);
+
+    cursor: pointer;
+}
